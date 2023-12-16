@@ -1,0 +1,15 @@
+Matlab and Simulink R2022a or newer - https://matlab.mathworks.com
+CORA - https://tumcps.github.io/CORA/
+CoppeliaSIM V4.2.0 - https://www.coppeliarobotics.com/downloads
+
+
+Run HyConf in Matlab/Simulink
+Choose the Test Model from the ones available
+Select the meta-heuristic and insert configuration values
+Select te output folder
+Place the output from previous step in a folder called "tests" in any of the Systems available
+Open a system in CoppeliaSIM V4.2.9 and press "RUN"
+Collect the output and place it in the folder Conformance Tests of the HyConf Folder
+Open HyCOnf and select Conformance Tests from the menu.
+Open select the same test model as in the previous step and the output from CoppeliaSIM
+The verdict will be given for that test suite.
